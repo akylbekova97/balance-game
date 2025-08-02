@@ -1,38 +1,120 @@
-.App {
+h2 {
+  display: block;
+  width: 900px;
+  margin: 30px auto 100px auto;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.base {
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 650px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.holders {
+  margin: 0 auto;
+  width: 440px;
+
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: -130px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.holders img {
+  width: 34px;
+  margin-left: -10px;
+}
+
+.deam {
+  display: block;
+  margin: 0 auto;
+  width: 650px;
+  margin-top: -390px;
+}
+.rigth_bloc {
   display: flex;
   flex-direction: column;
+}
+.dumbbell_rigth {
+  width: 120px;
+  margin-left: 50px;
+}
+.panse_rigth {
+  width: 220px;
+  margin-bottom: -135px;
+}
+
+.panse_left {
+  width: 220px;
+  margin-bottom: -140px;
+}
+
+.dumbbell_left {
+  width: 90px;
+  margin-left: 20px;
+}
+.cat {
+  width: 90px;
+}
+
+.left_bloc {
+  margin-top: -120px;
+}
+
+.flex {
+  margin: 0 auto;
+  width: 620px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -100px;
+}
+
+.imput_block {
+  margin: 0 auto;
+  margin-top: 270px;
+  width: 420px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+h3 {
+  font-size: 22px;
+}
+
+input {
+  width: 200px;
+  padding: 9px 12px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+.btn {
+  height: 40px;
+  width: 120px;
+  display: block;
+  background-color: rgb(156, 97, 214);
+  border: none;
+  border-radius: 10px;
   color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.btn:hover {
+  background-color: rgb(176, 121, 231);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.modal {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.modal button {
+  margin: 0 auto;
 }
