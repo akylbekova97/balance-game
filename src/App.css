@@ -1,7 +1,11 @@
 h2 {
-  display: block;
   width: 900px;
-  margin: 30px auto 100px auto;
+  margin: 30px auto 50px auto;
+  text-align: center;
+}
+h4 {
+  font-size: 20px;
+  padding-bottom: 30px;
   text-align: center;
 }
 .base {
@@ -31,18 +35,20 @@ h2 {
   margin: 0 auto;
   width: 650px;
   margin-top: -390px;
+  /* transition: transform 0.5s ease;
+  transform: rotate(20)deg; */
 }
 .rigth_bloc {
   display: flex;
   flex-direction: column;
 }
 .dumbbell_rigth {
-  width: 120px;
-  margin-left: 50px;
+  width: 90px;
+  margin-left: 60px;
 }
 .panse_rigth {
   width: 220px;
-  margin-bottom: -135px;
+  margin-bottom: -115px;
 }
 
 .panse_left {
@@ -51,15 +57,18 @@ h2 {
 }
 
 .dumbbell_left {
-  width: 90px;
-  margin-left: 20px;
+  width: 60px;
+  margin-left: 50px;
 }
 .cat {
   width: 90px;
+  /* z-index: 1000; */
 }
 
 .left_bloc {
-  margin-top: -120px;
+  /* margin-bottom: -120px; */
+  margin-top: 40px;
+  /* margin-top: -90px; */
 }
 
 .flex {
@@ -72,7 +81,7 @@ h2 {
 
 .imput_block {
   margin: 0 auto;
-  margin-top: 270px;
+  margin-top: 140px;
   width: 420px;
   display: flex;
   gap: 20px;
@@ -113,7 +122,8 @@ input {
 .modal {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 18px;
+  /* text-align: center; */
 }
 .modal button {
   margin: 0 auto;
