@@ -35,8 +35,6 @@ h4 {
   margin: 0 auto;
   width: 650px;
   margin-top: -390px;
-  /* transition: transform 0.5s ease;
-  transform: rotate(20)deg; */
 }
 .rigth_bloc {
   display: flex;
@@ -62,13 +60,10 @@ h4 {
 }
 .cat {
   width: 90px;
-  /* z-index: 1000; */
 }
 
 .left_bloc {
-  /* margin-bottom: -120px; */
   margin-top: 40px;
-  /* margin-top: -90px; */
 }
 
 .flex {
@@ -123,7 +118,6 @@ input {
   display: flex;
   flex-direction: column;
   gap: 18px;
-  /* text-align: center; */
 }
 .modal button {
   margin: 0 auto;
